@@ -1,0 +1,16 @@
+.content {
+	/* width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: center;
+	align-items: center; */
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.content div {
+	/* width: 300px; */
+	grid-column-start: 4;
+	grid-column-end: 10;
+}

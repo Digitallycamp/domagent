@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 120px;
+	/* background-color: grey; */
+	background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.a2BHgy-gi6u9xrSAH-pxgwHaE9%26pid%3DApi&f=1&ipt=a9ee40003fd4038918adfd64bee7471a062aba8a5a1660d751df9949cd993b34&ipo=images'),
+		url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.tHlFx173qR9qo3ylOCSzZgHaEK%26pid%3DApi&f=1&ipt=98cddda1f216c2cf79614b4f426fe547feb6cba32be472d2fb1dbdb8fcb0e4c0&ipo=images');
+	background-repeat: no-repeat;
+	/* background-size: contain; */
+	background-position: top left, top right;
+}
+h1 {
+	font-size: 12rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #b0f;
+	text-transform: capitalize;
+	text-decoration: overline;
+}
+.link1 {
+	color: yellow;
+}
+
+.link2 {
+	color: red;
+}
+
+/* section p {
+	color: blue;
+} */
+
+.sect2 .sec2-p {
+	color: blue;
+}
+
+form {
+	width: 400px;
+	margin: auto;
+	background-color: white;
+	/* border-width: 20px;
+	border-style: solid;
+	border-color: red; */
+	/* box-shadow: horizontal value, veritcsl vaklie, spread, color; */
+	box-shadow: 1px 2px 8px grey;
+	border-radius: 8px;
+}
+/**
+TEXT
+UNIT of messament: px % , em, rem
+BACKGROUND
+SPACING : padding, margin, box-szing , border
+LAYOUT: flex, grid
+COLOR: hEX CODE, color name, rgb, rgba
+SHADOWS
+*/
